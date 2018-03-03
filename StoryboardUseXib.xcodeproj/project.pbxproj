@@ -12,6 +12,10 @@
 		9BA709F5204A990800FB954E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA709F3204A990800FB954E /* Main.storyboard */; };
 		9BA709F7204A990800FB954E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA709F6204A990800FB954E /* Assets.xcassets */; };
 		9BA709FA204A990800FB954E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA709F8204A990800FB954E /* LaunchScreen.storyboard */; };
+		9BA70A03204A996C00FB954E /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA70A01204A996C00FB954E /* SongViewController.swift */; };
+		9BA70A04204A996C00FB954E /* SongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA70A02204A996C00FB954E /* SongViewController.xib */; };
+		9BA70A06204A99E400FB954E /* HappySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA70A05204A99E400FB954E /* HappySongViewController.swift */; };
+		9BA70A08204A99ED00FB954E /* SadSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA70A07204A99ED00FB954E /* SadSongViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9BA709F6204A990800FB954E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA709F9204A990800FB954E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA709FB204A990800FB954E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA70A01204A996C00FB954E /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		9BA70A02204A996C00FB954E /* SongViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongViewController.xib; sourceTree = "<group>"; };
+		9BA70A05204A99E400FB954E /* HappySongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappySongViewController.swift; sourceTree = "<group>"; };
+		9BA70A07204A99ED00FB954E /* SadSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadSongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				9BA709F6204A990800FB954E /* Assets.xcassets */,
 				9BA709F8204A990800FB954E /* LaunchScreen.storyboard */,
 				9BA709FB204A990800FB954E /* Info.plist */,
+				9BA70A01204A996C00FB954E /* SongViewController.swift */,
+				9BA70A05204A99E400FB954E /* HappySongViewController.swift */,
+				9BA70A07204A99ED00FB954E /* SadSongViewController.swift */,
+				9BA70A02204A996C00FB954E /* SongViewController.xib */,
 			);
 			path = StoryboardUseXib;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA709FA204A990800FB954E /* LaunchScreen.storyboard in Resources */,
+				9BA70A04204A996C00FB954E /* SongViewController.xib in Resources */,
 				9BA709F7204A990800FB954E /* Assets.xcassets in Resources */,
 				9BA709F5204A990800FB954E /* Main.storyboard in Resources */,
 			);
@@ -136,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA70A06204A99E400FB954E /* HappySongViewController.swift in Sources */,
+				9BA70A03204A996C00FB954E /* SongViewController.swift in Sources */,
 				9BA709F2204A990800FB954E /* ViewController.swift in Sources */,
 				9BA709F0204A990800FB954E /* AppDelegate.swift in Sources */,
+				9BA70A08204A99ED00FB954E /* SadSongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
